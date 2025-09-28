@@ -1,10 +1,13 @@
 @echo off
-title SMB Bruteforce - By Galactic Destroyer
+title SMB Bruteforce - Made By Zer0x
+echo SMB Bruteforce - Made By Zer0x
+echo.
+echo If You Don't Know Your Tagets Ip Adress Press Windows + R And Type "cmd" Then Click Enter Then Type "ipconfig" And Enter
 color A
 echo.
-set /p ip="Enter IP Address: "
-set /p user="Enter Username: "
-set /p wordlist="Enter Password List: "
+set /p ip="Enter Target's IP Address: "
+set /p user="Enter Target's Username: "
+set /p wordlist="Enter Your Password List: "
 
 set /a count=1
 for /f %%a in (%wordlist%) do (
